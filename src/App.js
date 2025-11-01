@@ -90,6 +90,9 @@ import AuthPage from './pages/AuthPage';
 import Politician from './pages/Politician';
 import AdMob from './pages/AdMob';
 import FrameManager from './pages/FrameManager'; // ✅ New import
+import Religious from './pages/Religious';
+import Reports from './pages/Reports';
+
 
 // =================== Protected Route ===================
 const ProtectedRoute = ({ children }) => {
@@ -131,6 +134,8 @@ function App() {
             <Route path="subscriptions" element={<Subscriptions />} />
             <Route path="politicians" element={<Politician />} />
             <Route path="admob" element={<AdMob />} />
+            <Route path="religious" element={<Religious />} />
+            <Route path="reports" element={<Reports />} />
             <Route path="framemanager" element={<FrameManager />} /> {/* ✅ Added Frame Route */}
           </Route>
 

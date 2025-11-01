@@ -24,9 +24,11 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { path: '/categories', name: 'Categories', icon: <FaLayerGroup /> },
      { path: '/politicians', name: 'Politicians', icon: <FaUsers /> },
     { path: '/users', name: 'Users', icon: <FaUsers /> },
-    { path: '/subscriptions', name: 'Subscriptions', icon: <FaCreditCard /> },
+    { path: '/subscriptions', name: 'Subscriptions', icon: <FaLayerGroup /> },
     { path: '/admob', name: 'AdMob', icon: <FaCreditCard /> },
-    { path: '/framemanager', name: 'Frame Manager', icon: <FaCreditCard /> }
+    { path: '/reports', name: 'Reports', icon: <FaImages /> },
+    { path: '/religious', name: 'Religious', icon: <FaCreditCard /> }
+
   ];
 
   return (
