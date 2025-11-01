@@ -10,7 +10,7 @@ const Politician = () => {
   const [form, setForm] = useState({
     title: "",
     abbreviation: "",
-    status: "active",
+    status: "active", 
     logo: null,
   });
   const [filePreview, setFilePreview] = useState(null);
@@ -155,5 +155,6 @@ const Politician = () => {
     </Container>
   );
 };
+
 
 export default Politician;
