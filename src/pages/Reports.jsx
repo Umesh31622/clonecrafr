@@ -15,7 +15,7 @@
 //     try {
 //       const res = await axios.get(`${BASE_URL}/api/reports`);
 //       setReports(res.data.data || []);
-//     } catch (err) {
+//     } catch (err) { 
 //       console.error("Fetch reports error:", err);
 //     }
 //   };
@@ -337,3 +337,4 @@ const Reports = () => {
 };
 
 export default Reports;
+
