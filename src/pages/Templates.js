@@ -17,7 +17,7 @@
 // //   "centerLeft","centerRight","topCenter","bottomCenter",
 // // ];
 
-// // const transitionTypes = [
+// // const transitionTypes = [ 
 // //   "fade","slideFromBottom","slideFromTop","slideFromLeft","slideFromRight",
 // //   "slideFromBottomLeft","slideFromBottomRight","slideFromTopLeft","slideFromTopRight",
 // //   "scale","rotation","bounce","ripple","profileReveal",

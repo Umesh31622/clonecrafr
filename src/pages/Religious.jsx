@@ -11,7 +11,7 @@ const Religious = () => {
     title: "",
     abbreviation: "",
     status: "active",
-    logo: null,
+    logo: null, 
   });
 
   const API_URL = "https://clonecraftbackend-gydw.vercel.app/api/religious"; // 🔁 Replace with your API base URL
@@ -243,3 +243,4 @@ const Religious = () => {
 };
 
 export default Religious;
+
