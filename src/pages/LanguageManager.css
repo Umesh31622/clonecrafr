@@ -1,0 +1,155 @@
+/* 🌐 Professional Language Manager UI */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.language-container {
+  max-width: 950px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 18px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.language-container h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.language-form {
+  margin-bottom: 30px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1 1 calc(25% - 12px);
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.form-row input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #00a1e4);
+}
+
+/* 🧾 Table */
+.language-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.language-table thead {
+  background: #007bff;
+  color: white;
+  font-weight: 500;
+}
+
+.language-table th,
+.language-table td {
+  text-align: center;
+  padding: 14px 10px;
+  font-size: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.language-table tbody tr {
+  transition: 0.2s ease-in-out;
+}
+
+.language-table tbody tr:hover {
+  background-color: #f1f7ff;
+}
+
+/* Buttons inside table */
+.language-table td button {
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  margin: 0 3px;
+}
+
+.edit-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #43a047;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.no-data {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input {
+    flex: 1 1 100%;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+  }
+
+  .language-container {
+    padding: 25px 20px;
+  }
+}
